@@ -1,0 +1,54 @@
+<!--
+    This is the XML file for an enemy. The structure is the following :
+        -text : This is the question that comes up in the line box
+        -power : The amount of damage the question will do. I keep it at 4 currently.
+        -answer : The correct answer to the question
+        -WrongAnswer1 and WrongAnswer2 : These are other answers paired with the real answer. 
+        -ResponseRight : What the character will say if you get the correct answer
+        -ReponseWrong : What the character will say if you get the incorrect answer
+    
+    Notes :
+        - The answer order is always randomised in the C++ program.
+-->
+<lines>
+		<speech>
+			<text>Which party do I belong to currently?</text>
+			<power> 4 </power>
+			<wrongAnswer1> Some party you've never heard of... </wrongAnswer1>
+			<wrongAnswer2> UKIP </wrongAnswer2>
+			<answer> Brexit Party </answer>
+			<responseRight>How do you know.....</responseRight>
+			<responseWrong>You know I change parties every 30 seconds?.....</responseWrong>
+		</speech>
+		
+		<speech>
+			<text>The Brexit vote was fair and square!</text>
+			<power> 4 </power>
+			<wrongAnswer1>The vote was really stupid...</wrongAnswer1>
+			<wrongAnswer2>The vote was stupid...</wrongAnswer2>
+			<answer>It broke multiple advertising rules.</answer>
+			<responseRight>How did you know, I told the russians to keep it quiet.....</responseRight>
+			<responseWrong>Come on, you must have a better response than that.....</responseWrong>
+		</speech>
+		
+		<speech>
+			<text>What is my nickname in the US?</text>
+			<power> 4 </power>
+			<wrongAnswer1>Trumps Best Friend</wrongAnswer1>
+			<wrongAnswer2>Mr No Good</wrongAnswer2>
+			<answer>Mr Brexit</answer>
+			<responseRight> You're right? How is that possible?.....</responseRight>
+			<responseWrong> No, no, no, what is my flagship policy?.....</responseWrong>
+		</speech>
+		
+		<speech>
+			<text>How much money did I promise the NHS?</text>
+			<power> 4 </power>
+			<wrongAnswer1>£1.20</wrongAnswer1>
+			<wrongAnswer2>£2.50</wrongAnswer2>
+			<answer>£350 Million pounds</answer>
+			<responseRight> Wait, how did you know.....</responseRight>
+			<responseWrong> That seems a little low.....</responseWrong>
+		</speech>
+	
+</lines>

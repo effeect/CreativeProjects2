@@ -1,0 +1,64 @@
+<!--
+    This is the XML file for an enemy. The structure is the following :
+        -text : This is the question that comes up in the line box
+        -power : The amount of damage the question will do. I keep it at 4 currently.
+        -answer : The correct answer to the question
+        -WrongAnswer1 and WrongAnswer2 : These are other answers paired with the real answer. 
+        -ResponseRight : What the character will say if you get the correct answer
+        -ReponseWrong : What the character will say if you get the incorrect answer
+    
+    Notes :
+        - The answer order is always randomised in the C++ program.
+-->
+<lines>
+		<speech>
+			<text>My name is Donald J Trump, the J stands for?</text>
+			<power> 4 </power>
+			<wrongAnswer1> Jesus </wrongAnswer1>
+			<wrongAnswer2> Junior </wrongAnswer2>
+			<answer> Genius </answer>
+			<responseRight> Genius? That sounds right.</responseRight>
+			<responseWrong> Wrong wrong wrong, we should be build a wall!</responseWrong>
+		</speech>
+		
+		<speech>
+			<text>Everything the media says is a lie! What have I done that is true? </text>
+			<power> 4 </power>
+			<wrongAnswer1> You started a restruant business </wrongAnswer1>
+			<wrongAnswer2> You started a fashion line. </wrongAnswer2>
+			<answer> You started a university that isn't a university </answer>
+			<responseRight> Look Trump University was a university, it had sky rocket prices.</responseRight>
+			<responseWrong> Wrong wrong wrong, we should be build a wall!</responseWrong>
+		</speech>
+		
+		<speech>
+			<text>Explain me this, how do we stop gun violence? </text>
+			<power> 4 </power>
+			<wrongAnswer1> Give people guns. </wrongAnswer1>
+			<wrongAnswer2> Give kids guns.</wrongAnswer2>
+			<answer> Restrict weapons, keeps everyone happy.</answer>
+			<responseRight> You're right? How is that possible?</responseRight>
+			<responseWrong> No, no, no, America loves their guns</responseWrong>
+		</speech>
+		
+		<speech>
+			<text>I look young, how old am I</text>
+			<power> 4 </power>
+			<wrongAnswer1> 18 </wrongAnswer1>
+			<wrongAnswer2> 25 </wrongAnswer2>
+			<answer> 72 (His actual age as of 07/04/2019 at 16:25PM GMT) </answer>
+			<responseRight> You can see through my orange skin? How!?</responseRight>
+			<responseWrong> Wrong!</responseWrong>
+		</speech>
+		
+		<speech>
+			<text>If I was a fruit, which fruit would I be?</text>
+			<power> 4 </power>
+			<wrongAnswer1> Cucumber </wrongAnswer1>
+			<wrongAnswer2> Tomato </wrongAnswer2>
+			<answer> Orange </answer>
+			<responseRight> Orange, oh god. Why Am I so ORANGE!?</responseRight>
+			<responseWrong> That's not right</responseWrong>
+		</speech>
+	
+</lines>

@@ -1,0 +1,45 @@
+<!--
+    This is the XML file for an enemy. The structure is the following :
+        -text : This is the question that comes up in the line box
+        -power : The amount of damage the question will do. I keep it at 4 currently.
+        -answer : The correct answer to the question
+        -WrongAnswer1 and WrongAnswer2 : These are other answers paired with the real answer. 
+        -ResponseRight : What the character will say if you get the correct answer
+        -ReponseWrong : What the character will say if you get the incorrect answer
+    
+    Notes :
+        - The answer order is always randomised in the C++ program.
+-->
+<lines>
+
+		<!-- https://www.independent.co.uk/news/world/americas/dog-mayor-minnesota-cormorant-duke-lassie-a7205801.html-->
+		<speech>
+			<text>*Woof Woof Woof*</text>
+			<power> 4 </power>
+			<wrongAnswer1> *Do nothing* </wrongAnswer1>
+			<wrongAnswer2> *Do nothing* </wrongAnswer2>
+			<answer> *Give him some food*</answer>
+			<responseRight>*Duke seems to be happy...*</responseRight>
+			<responseWrong>*Duke seems to be sad...*</responseWrong>
+		</speech>
+		
+				<speech>
+			<text>*Bark Bark Bark*</text>
+			<power> 4 </power>
+			<wrongAnswer1> *Do nothing* </wrongAnswer1>
+			<wrongAnswer2> *Do nothing* </wrongAnswer2>
+			<answer> *Take him out for a walk*</answer>
+			<responseRight>*Duke seems to be happy...*</responseRight>
+			<responseWrong>*Duke seems to be sad...*</responseWrong>
+		</speech>
+		
+		<speech>
+			<text>*Woof Woof Woof Woof*</text>
+			<power> 4 </power>
+			<wrongAnswer1> *Do nothing* </wrongAnswer1>
+			<wrongAnswer2> *Do nothing* </wrongAnswer2>
+			<answer>*Tell him his a good boy*</answer>
+			<responseRight>*Duke seems to be happy...*</responseRight>
+			<responseWrong>*Duke seems to be sad...*</responseWrong>
+		</speech>
+</lines>
